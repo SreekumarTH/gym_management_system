@@ -14,9 +14,9 @@ import org.sree.gym.bean.MemberBean;
 public class MembersDao {
 
 	private String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	private String DB_URL = "jdbc:mysql://eu-cdbr-west-03.cleardb.net/heroku_df6da957123b659?useSSL=false";
-	private String USER = "bc6cd363896d10";
-	private String PASS = "e8f29381";
+	private String DB_URL = "jdbc:mysql://us-cdbr-east-02.cleardb.com/heroku_b75b3335121fcf8?useSSL=false";
+	private String USER = "ba222130921f02";
+	private String PASS = "f5c6b050";
 
 	private static final String INSERT_MEMBER_SQL = "INSERT INTO member" + "  (username, password, name, age) VALUES "
 			+ " (?, ?, ?, ?);";

@@ -17,7 +17,7 @@ public class LoginDao {
 		Class.forName("com.mysql.jdbc.Driver");
 
 		try (Connection connection = DriverManager
-				.getConnection("jdbc:mysql://eu-cdbr-west-03.cleardb.net/heroku_df6da957123b659", "bc6cd363896d10", "e8f29381");
+				.getConnection("jdbc:mysql://us-cdbr-east-02.cleardb.com/heroku_b75b3335121fcf8", "ba222130921f02", "f5c6b050");
 				PreparedStatement preparedStatement = connection
 						.prepareStatement("select * from member where username = ? and password = ? "))
 		{
